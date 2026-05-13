@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #cc487b;
+  color: #f2e9d8;
+}
+.header-pocetna {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 32px;
+  text-align: center;
+  background-color: #df4398;
+}
+
+.naslov-pocetna {
+  font-size: 48px;
+  color: #a60321;
+}
+
+.podnaslov-pocetna {
+  font-size: 24px;
+  color: #f9a;
+}
+
+.dugme-pocetna {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e60b71;
+  border: none;
+  cursor: pointer;
+}
+
+.dugmici-pocetna {
+  margin-top: 20px;
+}
+
+.link-pocetna {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f2e9d8;
+}
+
+.sekcija-pocetna {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.naslov_frontend-pocetna {
+  font-size: 36px;
+  color: #a60321;
+  margin-bottom: 12px;
+}
+
+.tekst_frontend-pocetna {
+  font-size: 18px;
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+
+.slika-pocetna {
+  width: 500px;
+}
+
+.tehnologije-pocetna {
+  display: flex;
+  justify-content: center;
+}
+
+.tabela-pocetna {
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: rgb(235, 92, 187);
+  border-radius: 12px;
+  border: 2px solid #a60321;
+  overflow: hidden;
+  width: 65%;
+  margin-top: 24px;
+}
+
+th,
+td {
+  font-size: 16px;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.donjiBorder-header th {
+  border-bottom: 1px solid #a60321;
+}
+
+.donjiBorder-sredina td {
+  border-bottom: 1px solid #a60321;
+}
+
+.levaStranaTabele {
+  width: 55%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #a60321;
+}
+.ikonica {
+  width: 40px;
+}
+
+.tekstTabele {
+  font-size: 16px;
+}
+
+.onama-sekcija,
+.kontakt-sekcija {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.onama-kartica,
+.forma-kontakt,
+.kontakt-info {
+  background-color: #df4398;
+  border: 2px solid #a60321;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.tekst_onama {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.lista-onama {
+  list-style-position: inside;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.forma-kontakt {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input-kontakt,
+.textarea-kontakt {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #a60321;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  outline: none;
+}
+
+.textarea-kontakt {
+  height: 150px;
+  resize: none;
+}
+
+.dugme-forma {
+  width: 200px;
+  padding: 12px;
+  background-color: #e60b71;
+  border: none;
+  border-radius: 8px;
+  color: #f2e9d8;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.dugme-forma:hover,
+.dugme-pocetna:hover {
+  opacity: 0.9;
+}
+
+/* #A60321
+#F2E9D8
+#8C5C32
+#D9A577
+#D97B66 */
